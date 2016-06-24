@@ -14,4 +14,6 @@
         = application.description
     %tr
       %td{:colspan => "2"}
+        %p
+          %strong Should this go ahead?
         = link_to 'Add your own comment', new_comment_url_with_tracking(theme: @theme, id: application.id)
